@@ -8,20 +8,22 @@ Simulasi dibuat untuk memenuhi tugas AE4026 Attitude Dynamics & Control.
 # Cara menjalankan program
 Program dibuat menggunakan SIMULINK, pastikan SIMULINK sudah terinstall sebelum menjalankan program.
 ## Petunjuk penggunaan
-### Buka SIMULINK, jalankan program DinsatHW7.slx
-###  Atur data satelit seperti gravity gradient, inertia, dan torsi.
+### 1. Buka SIMULINK, jalankan program DinsatHW7.slx
+### 2. Atur data satelit seperti gravity gradient, inertia, dan torsi.
 ![Input data satelit](assets/gginertiatorsion.png)
-### Input elemen orbit satelit dalam keplerian
+### 3. Input elemen orbit satelit dalam keplerian
 ![Input elemen orbit](assets/keplerianorbit.png)
-### Input mode kontrol yang akan digunakan dalam simulasi
+### 4. Input mode kontrol yang akan digunakan dalam simulasi
 ![Input kontrol](assets/desiredinput.png)
 Pastikan memilih antara NadirPointing, InertialPointing, atau TargetPointing pada menu berikut.
 ![Pilihan kontrol](assets/controlchoice.png)
-### Input data kontrol yang dipilih pada blok berikut
+### 5. Input data kontrol yang dipilih pada blok berikut
 ![Input data kontrol](assets/controlinput.png)
-### Run simulasi
+### 6. Run simulasi
 Untuk melihat satelit dengan 3D simulation simulink, pilih VR Sink 1 pada blok berikut.
 ![Output 3D](assets/output3D.png)
+
 Output 3D dapat dilihat sebagai berikut.
 ![3D View](assets/3dview.png)
+
 Output lain dapat dilihat pada scope yang diberikan, atau bisa menambah scope sendiri jika diperlukan.
